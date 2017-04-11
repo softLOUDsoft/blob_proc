@@ -1,0 +1,11 @@
+*.cbp
+*.make
+*.txt
+*.bin
+*.log
+*.cpp.o
+*.cxx
+*.check_cache
+*.c
+*.includecache
+*.internal

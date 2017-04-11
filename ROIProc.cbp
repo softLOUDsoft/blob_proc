@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ROIProc" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\ROIProc\;CMake Files\src\ROIProcessing\;CMake Files\src\libCam\;CMake Files\src\colorCorrector\;CMake Files\src\example\;CMake Files\src\featureExtractor\;CMake Files\src\featureMatcher\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/bgrassian/cam-proc/src/ROIProc" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ROIProc">
+         <Option output="/home/bgrassian/cam-proc/bin/ROIProc" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bgrassian/cam-proc/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/bgrassian/cam-proc/src/ROIProc" />
+            <Add directory="/home/bgrassian/cam-proc/src/colorCorrector" />
+            <Add directory="/home/bgrassian/cam-proc/src/libCam" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 ROIProc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ROIProc/fast">
+         <Option output="/home/bgrassian/cam-proc/bin/ROIProc" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bgrassian/cam-proc/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/bgrassian/cam-proc/src/ROIProc" />
+            <Add directory="/home/bgrassian/cam-proc/src/colorCorrector" />
+            <Add directory="/home/bgrassian/cam-proc/src/libCam" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 ROIProc/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bgrassian/cam-proc/src/ROIProc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/blobdetection.cpp">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/blobdetection.h">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/bloblibproc.cpp">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/bloblibproc.h">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/contourassembler.cpp">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/contourassembler.h">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/main.cpp">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/morphops.cpp">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/morphops.h">
+         <Option target="ROIProc"/>
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ROIProc\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ROIProc\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProcessing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ROIProcessing\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/ROIProcessing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\ROIProcessing\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/libCam/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\libCam\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/libCam/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\libCam\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/colorCorrector/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\colorCorrector\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/colorCorrector/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\colorCorrector\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/example/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\example\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/example/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\example\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/featureExtractor/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\featureExtractor\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/featureExtractor/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\featureExtractor\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/featureMatcher/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\featureMatcher\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/src/featureMatcher/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\featureMatcher\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/bgrassian/cam-proc/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

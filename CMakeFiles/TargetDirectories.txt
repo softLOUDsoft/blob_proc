@@ -1,0 +1,3 @@
+/home/bgrassian/cam-proc/src/ROIProc/CMakeFiles/edit_cache.dir
+/home/bgrassian/cam-proc/src/ROIProc/CMakeFiles/rebuild_cache.dir
+/home/bgrassian/cam-proc/src/ROIProc/CMakeFiles/ROIProc.dir
